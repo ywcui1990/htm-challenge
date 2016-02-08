@@ -79,11 +79,12 @@
   "classifierRegionConfig": {
     "regionEnabled": true,
     "regionName": "classifier",
-    "regionType": "py.KNNClassifierRegion",
+    "regionType": "py.CLAClassifierRegion",
     "regionParams": {
-      "k": 1,
-      "distThreshold": 0,
-      "maxCategoryCount": 2
+      "steps": "0",
+      "implementation": "py",
+      "maxCategoryCount": 3,
+      "clVerbosity": 0
     }
   }
 }
